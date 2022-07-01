@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: var(--font-weight-bold);
 }
 
-section {
+.section {
     padding: var(--section-padding);
 }
 
@@ -131,9 +131,9 @@ section {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background: red;
+    /* background: red; */
 }
 
-footer {
+.footer {
     padding: var(--footer-padding);
 }
