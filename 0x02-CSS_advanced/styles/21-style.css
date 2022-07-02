@@ -178,16 +178,16 @@ ul.row {
     list-style: none;
 }
 
-div li.col-1-2, div li.col-1-3 {
+.col-1-2, .col-1-3 {
     float: left;
     padding: 0.5rem;
 }
 
-li.col-1-3 {
+.col-1-3 {
     width: 33.33%;
 }
 
-li.col-1-2 {
+.col-1-2 {
     width: 50%;
 }
 
