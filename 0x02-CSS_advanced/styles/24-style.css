@@ -151,8 +151,8 @@ h1, h2, h3, h4, h5, h6{
     padding: var(--section-body-padding);
 }
 
-.card-services .card-title{
-    margin: 0
+.card-services > .card-title{
+    margin: 0;
 }
 
 .card-services a {
