@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6{
     background: var(--color-light-grey)
 }
 
-.card-services > .card-title > a:hover {
+.card-services .card-title a:hover {
     color: var(--color-white);
     background: var(--color-primary);
     text-decoration: none;
