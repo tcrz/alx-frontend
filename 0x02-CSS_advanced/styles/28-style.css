@@ -64,7 +64,7 @@ summary{display:list-item}template{display:none}[hidden]{display:none}
     --header-padding: 4rem 0 0;
     --header-logo-position: relative;
     --header-logo-link-display: inline-block;
-    --header-loo-link-position: absolute;
+    --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
 }
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header-logo {
-    position: var(--header-logo-position)
+    position: var(--header-logo-link-position)
 }
 
 .header-logo a {
