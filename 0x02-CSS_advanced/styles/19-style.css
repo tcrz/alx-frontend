@@ -50,7 +50,8 @@ summary{display:list-item}template{display:none}[hidden]{display:none}
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem;
-    --nav-item-link-hover: var(--color-primary)
+    --nav-item-link-hover: var(--color-primary);
+    --section-tagline-margin: 0
 }
 
 *, *:before, *:after{
@@ -160,7 +161,8 @@ h1, h2, h3, h4, h5, h6{
 .section-tagline {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold)
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-tagline-margin)
 }
 
 .container {
